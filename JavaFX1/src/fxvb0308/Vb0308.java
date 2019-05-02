@@ -8,15 +8,18 @@ import javafx.scene.layout.Pane;
 public class Vb0308 {
 	private final Button knop;
 	private final Circle cirkel;
-	private int straal;
+	private int straal, kl;
 	
 	public Vb0308(Pane p) {
 		knop = new Button("Groter");
 		straal = 10;
-		cirkel = new Circle(250,250,straal,Color.CHOCOLATE);
+		kl =100;
+		Color rood = Color.rgb(kl+150, kl, kl);
+		cirkel = new Circle(250,250,straal,rood);
 		
 		knop.setOnAction(event -> {
 			straal++;
+			kl+=10;
 			cirkel.setRadius(straal);
 		});
 		p.getChildren().addAll(knop,cirkel);
