@@ -16,6 +16,7 @@ public class GitTest {
 		// TODO Auto-generated method stub
 		System.out.println("Git is fun!  (but there is a learning curve)");
 		System.out.println("change");
+		System.out.println("190619");
 	}
 
 }
