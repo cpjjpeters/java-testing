@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="238.0" prefWidth="269.0" 
+	xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/8"
+	fx:controller="be.ipeters.application.MyController"	>
+	<children>
+		<!-- <VBox layoutX="-209.0" layoutY="-285.0" prefHeight="249.0" prefWidth="219.0"> -->
+		<!-- <children> -->
+		<!-- <Button fx:id="yourButton" mnemonicParsing="false" onAction="#showDateTime" 
+			text="Show Date Time" textFill="#3c15c9" /> -->
+		<!-- <TextField fx:id="yourTextField" layoutY="200.0" prefHeight="39.0" 
+			prefWidth="219.0" /> -->
+		<!-- </children> -->
+		<!-- </VBox> -->
+		<Button fx:id="myButton" layoutX="51.0" layoutY="44.0"
+			mnemonicParsing="false" onAction="#showDateTime"
+			text="Show Date Time" />
+		<TextField fx:id="myTextField" layoutX="28.0"
+			layoutY="107.0" prefHeight="39.0" prefWidth="219.0" />
+	</children>
+</AnchorPane>
